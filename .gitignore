@@ -1,0 +1,10 @@
+*.bak
+*-bak
+gerber/
+fp-info-cache
+opcigale
+opcigale-cache.lib
+*.csv
+*.tsv
+*.xml
+*.net
