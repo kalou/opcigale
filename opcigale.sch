@@ -229,7 +229,7 @@ Wire Wire Line
 Text GLabel 6300 1600 2    50   Input ~ 0
 SND
 Wire Wire Line
-	5900 1300 6000 1300
+	5850 1300 6000 1300
 Wire Wire Line
 	6300 1500 6300 1600
 Wire Wire Line
@@ -251,12 +251,12 @@ $EndComp
 $Comp
 L Amplifier_Operational:LM358 U4
 U 2 1 61CE1267
-P 5600 1300
-F 0 "U4" H 5600 933 50  0000 C CNN
-F 1 "LM358" H 5600 1024 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 5600 1300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 5600 1300 50  0001 C CNN
-	2    5600 1300
+P 5550 1300
+F 0 "U4" H 5550 933 50  0000 C CNN
+F 1 "LM358" H 5550 1024 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 5550 1300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 5550 1300 50  0001 C CNN
+	2    5550 1300
 	1    0    0    1   
 $EndComp
 $Comp
@@ -305,7 +305,7 @@ Connection ~ 5100 800
 Wire Wire Line
 	5100 800  6300 800 
 Wire Wire Line
-	5100 1400 5300 1400
+	5100 1400 5250 1400
 Connection ~ 5100 1400
 Wire Wire Line
 	5100 1400 5100 1650
@@ -321,7 +321,7 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 3850 2100 50  000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2400 1200 5300 1200
+	2400 1200 5250 1200
 Connection ~ 2400 1200
 $Comp
 L Device:R_POT RV1
@@ -521,7 +521,7 @@ L Device:R R4
 U 1 1 621966C2
 P 1600 6150
 F 0 "R4" V 1393 6150 50  0000 C CNN
-F 1 "48k" V 1484 6150 50  0000 C CNN
+F 1 "20k" V 1484 6150 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 1530 6150 50  0001 C CNN
 F 3 "~" H 1600 6150 50  0001 C CNN
 	1    1600 6150
@@ -956,10 +956,10 @@ F 3 "~" H 2200 5800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R9
 U 1 1 61F0DA63
 P 2200 4100
-F 0 "R?" V 1993 4100 50  0000 C CNN
+F 0 "R9" V 1993 4100 50  0000 C CNN
 F 1 "20k" V 2084 4100 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 2130 4100 50  0001 C CNN
 F 3 "~" H 2200 4100 50  0001 C CNN
@@ -967,10 +967,10 @@ F 3 "~" H 2200 4100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R11
 U 1 1 61F23114
 P 2200 4950
-F 0 "R?" V 1993 4950 50  0000 C CNN
+F 0 "R11" V 1993 4950 50  0000 C CNN
 F 1 "20k" V 2084 4950 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 2130 4950 50  0001 C CNN
 F 3 "~" H 2200 4950 50  0001 C CNN
@@ -980,11 +980,11 @@ $EndComp
 Wire Wire Line
 	2350 5800 3200 5800
 $Comp
-L Device:R R?
+L Device:R R5
 U 1 1 61F44802
 P 1700 5350
-F 0 "R?" V 1493 5350 50  0000 C CNN
-F 1 "48k" V 1584 5350 50  0000 C CNN
+F 0 "R5" V 1493 5350 50  0000 C CNN
+F 1 "20k" V 1584 5350 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 1630 5350 50  0001 C CNN
 F 3 "~" H 1700 5350 50  0001 C CNN
 	1    1700 5350
@@ -993,11 +993,11 @@ $EndComp
 Wire Wire Line
 	1550 5350 1350 5350
 $Comp
-L Device:R R?
+L Device:R R3
 U 1 1 61F44BAD
 P 1700 4500
-F 0 "R?" V 1493 4500 50  0000 C CNN
-F 1 "48k" V 1584 4500 50  0000 C CNN
+F 0 "R3" V 1493 4500 50  0000 C CNN
+F 1 "100k" V 1584 4500 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 1630 4500 50  0001 C CNN
 F 3 "~" H 1700 4500 50  0001 C CNN
 	1    1700 4500
